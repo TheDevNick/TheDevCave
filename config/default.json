@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://nhollins:123456Gianna@cluster0.1boei.mongodb.net/TheDevCave?retryWrites=true&w=majority",
-  "jwtsecret": "mysecrettoken"
+  "jwtsecret": "mysecrettoken",
+  "githubClientId": "6da542e3447ace2d6600",
+  "githubClientSecret": "68c27b06b91887211fb5342edb89345b8b45b82a"
 }
