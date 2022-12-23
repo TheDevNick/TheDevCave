@@ -1,0 +1,9 @@
+Fri, 23 Dec 2022 17:59:54 GMT | [33mINFO[39m | DATABASE.log | MongoDB connected: cluster0-shard-00-00.1boei.mongodb.net | 
+Fri, 23 Dec 2022 18:00:16 GMT | [33mINFO[39m | DATABASE.log | MongoDB connected: cluster0-shard-00-02.1boei.mongodb.net | 
+Fri, 23 Dec 2022 18:00:26 GMT | [33mINFO[39m | DATABASE.log | MongoDB connected: cluster0-shard-00-00.1boei.mongodb.net | 
+Fri, 23 Dec 2022 18:00:52 GMT | [33mINFO[39m | undefined.log | MongoDB connected: cluster0-shard-00-00.1boei.mongodb.net | 
+Fri, 23 Dec 2022 18:00:57 GMT | [33mINFO[39m | DATABASE.log | MongoDB connected: cluster0-shard-00-02.1boei.mongodb.net | 
+Fri, 23 Dec 2022 18:01:12 GMT | [33mINFO[39m | database.log | MongoDB connected: cluster0-shard-00-01.1boei.mongodb.net | 
+Fri, 23 Dec 2022 18:01:26 GMT | [33mINFO[39m | DATABASE.log | MongoDB connected: cluster0-shard-00-01.1boei.mongodb.net | 
+Fri, 23 Dec 2022 18:01:34 GMT | [33mINFO[39m | [33mDATABASE[39m.log | MongoDB connected: cluster0-shard-00-00.1boei.mongodb.net | 
+Fri, 23 Dec 2022 18:01:49 GMT | [33mINFO[39m | [33mDATABASE[39m.log | MongoDB connected: cluster0-shard-00-01.1boei.mongodb.net | 

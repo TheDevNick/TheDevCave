@@ -4,9 +4,10 @@ const userRoutes = require('./routes/api/users')
 const profileRoutes = require('./routes/api/profile')
 const authRoutes = require('./routes/api/auth')
 const postsRoutes = require('./routes/api/posts')
-
 const app = express();
 
+const Logger = require('./services/logger_service')
+const log = new Logger('SERVER')
 // connect to DB
 connectDB()
 
@@ -25,4 +26,4 @@ app.use('/api/posts', postsRoutes)
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => console.log(`Server running on port: ${PORT}`));
+app.listen(PORT, () => log.info(`Server running on port: ${PORT}`));
