@@ -1,7 +1,6 @@
 import "./App.css";
 import { Fragment } from "react";
 import {
-  BrowserRouter,
   BrowserRouter as Router,
   Route,
   Routes,
@@ -10,22 +9,29 @@ import Navbar from "./components/layout/Navbar";
 import Landing from "./components/layout/Landing";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
+import Alert from "./components/layout/Alert";
+// redux
+import { Provider } from "react-redux";
+import store from "./store";
 
 const App = () => (
-  <Router>
-    <Fragment>
-      <Navbar />
-      <Routes>
-        <Route exact path="/" element={<Landing />} />
-      </Routes>
-      <section className="container">
+  <Provider store={store}>
+    <Router>
+      <Fragment>
+        <Navbar />
         <Routes>
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
+          <Route exact path="/" element={<Landing />} />
         </Routes>
-      </section>
-    </Fragment>
-  </Router>
+        <section className="container">
+          <Alert />
+          <Routes>
+            <Route path="/register" element={<Register />} />
+            <Route path="/login" element={<Login />} />
+          </Routes>
+        </section>
+      </Fragment>
+    </Router>
+  </Provider>
 );
 
 export default App;
